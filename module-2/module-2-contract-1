@@ -41,7 +41,23 @@ wiring:
 RGB LED color mixer
 
 
-## (M) Get to know Arduino IDE and the ESP8266 or ESP32
+## (M) Get to know; Arduino IDE and the ESP8266
+###Components:
+- Dual socket triple base shield for WebMos D1 Mini ESP8 - 3pcs
+- S3 - 2
+- Relay - 1
+- Button shield - 1
+- RFID reader
+- RFID card
+- RFID keyholder
+- Solenoid door lock
+- LEDs, condensator, resistors
+- OLED display shield - 2pcs
+- Cables
+- Power supply with cable
+
+
+
 “Hello world”/Blink in C++ (led, compile for microcontroller with ArduinoIDE)
 Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
 Variation(s) of blink with button.
