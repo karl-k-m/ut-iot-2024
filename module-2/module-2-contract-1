@@ -2,4 +2,16 @@
 
 ## The Kit
 
-## 
+## Recompile from class
+
+## (M) Basic electronics prototyping 
+”Hello breadboard”
+RGB LED color mixer
+
+
+## (M) Get to know Arduino IDE and the ESP8266 or ESP32
+“Hello world”/Blink in C++ (led, compile for microcontroller with ArduinoIDE)
+Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
+Variation(s) of blink with button.
+
+
