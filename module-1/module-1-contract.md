@@ -9,3 +9,12 @@ IoT (internet of things) is a network of physical objects embedded with sensors,
 ## Story something something
 One of our goals might be to create a device to track courier packages in transit and collect nearby network and location data and offload it on delivery.
 
+
+TODO - much more detail - design thinking
+
+Tell a story - resal world scenario
+Someone lost a package
+We need to check
+character
+needs
+sensors and actuators needed
