@@ -54,12 +54,12 @@ CoAp - Constrained Application Protocol is a specialized Internet application pr
 HTTP - Hypertext Transfer Protocol. Used for all kinds of web services, e.g. sending web pages, REST API-s, etc.
 
 
-## (M) Basic electronics prototyping - TODO
+## (M) Basic electronics prototyping - TODO: kood ja lisada pilt
 ”Hello breadboard”
 RGB LED color mixer
 
 
-## (M) “Hello world”/Blink in C++ - OK
+## (M) “Hello world”/Blink in C++ - TODO: lisa pilt
 Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
 Variation(s) of blink with button.
 
