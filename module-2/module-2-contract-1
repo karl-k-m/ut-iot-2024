@@ -1,10 +1,23 @@
 # Module 2 contract 1
 
-## The Kit
+## (M) The Kit - Arduino IDE and the ESP8266 - OK
+### Components:
+- Dual socket triple base shield for WebMos D1 Mini ESP8 - 3pcs
+- S3 - 2pcs
+- Relay
+- Button shield
+- RFID reader
+- RFID card
+- RFID keyholder
+- Solenoid door lock
+- LEDs, condensator, resistors
+- OLED display shield - 2pcs
+- Cables
+- Power supply with cable
 
-## Recompile from class
+## (O) Recompile from class - OK
 
-## Low level buses
+## (O) Low level buses - OK
 ### RS232
 History: Intro in 1960s, one of the oldest serial communication protocols, originally designed for data exchange between teletypewriters and modems;
 Length: Effective up to 15 meters (50 feet), though longer distances can be achieved at lower speeds or with high-quality cables;
@@ -35,35 +48,18 @@ Length: Can be used for distances up to 100 meters, depending on the configurati
 Speed: Standard speed up to 16.3 Kbps, with Overdrive mode allowing speeds up to 142 Kbps;
 Wiring: Unique in that it requires only a single wire for data transmission, with the ground serving as a reference. Some devices also include a separate power line.
 
-## IoT Protocols
+## (O) IoT Protocols - OK
 MQTT - lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service. Meant for remote devices which have limited opreational resources (processing power, bandwidth etc.).
 CoAp - Constrained Application Protocol is a specialized Internet application protocol for constrained devices, as defined in RFC 7252. It enables those constrained devices called "nodes" to communicate with the wider Internet using similar protocols.
 HTTP - Hypertext Transfer Protocol. Used for all kinds of web services, e.g. sending web pages, REST API-s, etc.
 
 
-## (M) Basic electronics prototyping 
+## (M) Basic electronics prototyping - TODO
 ”Hello breadboard”
 RGB LED color mixer
 
 
-## (M) Arduino IDE and the ESP8266
-### Components:
-- Dual socket triple base shield for WebMos D1 Mini ESP8 - 3pcs
-- S3 - 2pcs
-- Relay
-- Button shield
-- RFID reader
-- RFID card
-- RFID keyholder
-- Solenoid door lock
-- LEDs, condensator, resistors
-- OLED display shield - 2pcs
-- Cables
-- Power supply with cable
-
-
-
-## (M) “Hello world”/Blink in C++ (led, compile for microcontroller with ArduinoIDE)
+## (M) “Hello world”/Blink in C++ - OK
 Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
 Variation(s) of blink with button.
 
