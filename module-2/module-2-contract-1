@@ -5,31 +5,31 @@
 ## Recompile from class
 
 ## Low level buses
-###RS232
+### RS232
 history: 
 length: 
 speed: 
 wiring: 
 
-###RS485
+### RS485
 history: 
 length: 
 speed: 
 wiring: 
 
-###I2C
+### I2C
 history: 
 length: 
 speed: 
 wiring: 
 
-###SPI
+### SPI
 history: 
 length: 
 speed: 
 wiring: 
 
-###Onewire
+### Onewire
 history: 
 length: 
 speed: 
@@ -58,7 +58,7 @@ RGB LED color mixer
 
 
 
-“Hello world”/Blink in C++ (led, compile for microcontroller with ArduinoIDE)
+## (M) “Hello world”/Blink in C++ (led, compile for microcontroller with ArduinoIDE)
 Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
 Variation(s) of blink with button.
 
