@@ -6,34 +6,34 @@
 
 ## Low level buses
 ### RS232
-history: 
-length: 
-speed: 
-wiring: 
+History: Intro in 1960s, one of the oldest serial communication protocols, originally designed for data exchange between teletypewriters and modems;
+Length: Effective up to 15 meters (50 feet), though longer distances can be achieved at lower speeds or with high-quality cables;
+Speed: Typically up to 115.2 Kbps, but can be higher with modern equipment;
+Wiring: Simple point-to-point configuration with various pinouts; most common is the DB9 connector.
 
 ### RS485
-history: 
-length: 
-speed: 
-wiring: 
+History: Intro in 1980s as an improvement over RS232, RS485 supports longer cable lengths and higher speeds;
+Length: Up to 1200 meters;
+Speed: Can reach up to 10 Mbps at shorter distances;
+Wiring: Uses a differential signaling method with twisted pair cables, allowing for multi-point connections, up to 32 devices.
 
 ### I2C
-history: 
-length: 
-speed: 
-wiring: 
+History: Dev by Philips in the 1980s for communication between chips on a circuit board;
+Length: Designed for short distances, typically within a single device or circuit board;
+Speed: Standard mode up to 100 Kbps, Fast mode up to 400 Kbps, and High-speed mode up to 3.4 Mbps;
+Wiring: Two-wire bus (Serial Data Line (SDA) and Serial Clock Line (SCL)) and supports multiple masters and slaves.
 
 ### SPI
-history: 
-length: 
-speed: 
-wiring: 
+History: Dev by Motorola in the 1980s, primarily for short-distance communication in embedded systems;
+Length: Intended for short distances, typically a few centimeters to a meter.
+Speed: Can go up to several Mbps, depending on the specific implementation and system constraints;
+Wiring: Uses a master-slave architecture with four lines: Master Out Slave In (MOSI), Master In Slave Out (MISO), Clock (SCK), and Slave Select (SS).
 
-### Onewire
-history: 
-length: 
-speed: 
-wiring: 
+### OneWire
+History: Developed by Dallas Semiconductor in the 1990s for low-speed communication with minimal wiring;
+Length: Can be used for distances up to 100 meters, depending on the configuration and environment;
+Speed: Standard speed up to 16.3 Kbps, with Overdrive mode allowing speeds up to 142 Kbps;
+Wiring: Unique in that it requires only a single wire for data transmission, with the ground serving as a reference. Some devices also include a separate power line.
 
 ## IoT Protocols
 MQTT - lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service. Meant for remote devices which have limited opreational resources (processing power, bandwidth etc.).
