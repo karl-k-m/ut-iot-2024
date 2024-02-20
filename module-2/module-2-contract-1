@@ -4,6 +4,38 @@
 
 ## Recompile from class
 
+## Low level buses
+###RS232
+history: 
+length: 
+speed: 
+wiring: 
+
+###RS485
+history: 
+length: 
+speed: 
+wiring: 
+
+###I2C
+history: 
+length: 
+speed: 
+wiring: 
+
+###SPI
+history: 
+length: 
+speed: 
+wiring: 
+
+###Onewire
+history: 
+length: 
+speed: 
+wiring: 
+
+
 ## (M) Basic electronics prototyping 
 ”Hello breadboard”
 RGB LED color mixer
