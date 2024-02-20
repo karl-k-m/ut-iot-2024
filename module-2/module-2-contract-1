@@ -42,7 +42,7 @@ RGB LED color mixer
 
 
 ## (M) Arduino IDE and the ESP8266
-###Components:
+### Components:
 - Dual socket triple base shield for WebMos D1 Mini ESP8 - 3pcs
 - S3 - 2pcs
 - Relay
