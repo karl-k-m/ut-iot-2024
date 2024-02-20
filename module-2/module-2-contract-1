@@ -35,6 +35,11 @@ length:
 speed: 
 wiring: 
 
+## IoT Protocols
+MQTT - lightweight, publish-subscribe, machine to machine network protocol for message queue/message queuing service. Meant for remote devices which have limited opreational resources (processing power, bandwidth etc.).
+CoAp - Constrained Application Protocol is a specialized Internet application protocol for constrained devices, as defined in RFC 7252. It enables those constrained devices called "nodes" to communicate with the wider Internet using similar protocols.
+HTTP - Hypertext Transfer Protocol. Used for all kinds of web services, e.g. sending web pages, REST API-s, etc.
+
 
 ## (M) Basic electronics prototyping 
 ”Hello breadboard”
