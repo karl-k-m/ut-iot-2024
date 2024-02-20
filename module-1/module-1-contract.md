@@ -12,6 +12,10 @@ One of our goals might be to create a device to track courier packages in transi
 
 TODO - much more detail - design thinking
 
+TODO: check the slide 3
+Story v3+
+https://docs.google.com/presentation/d/1bpC8I0ptJitAojuKEgVe7qugbq70sbYewNzf2jk8z34/edit#slide=id.g26870712a6b_0_90
+
 Tell a story - resal world scenario
 Someone lost a package
 We need to check
