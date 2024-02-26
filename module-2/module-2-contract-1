@@ -54,9 +54,12 @@ CoAp - Constrained Application Protocol is a specialized Internet application pr
 HTTP - Hypertext Transfer Protocol. Used for all kinds of web services, e.g. sending web pages, REST API-s, etc.
 
 
-## (M) Basic electronics prototyping - TODO: kood ja lisada pilt
+## (M) Basic electronics prototyping - OK
 ”Hello breadboard”
-RGB LED color mixer
+RGB LED color mixer (the led has some issues with blue)
+https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/rgb_mixer_0.jpg
+https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/rgb_mixer_1.jpg
+https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/rgb_mixer_2.jpg
 
 
 ## (M) “Hello world”/Blink in C++ - TODO: lisa pilt
