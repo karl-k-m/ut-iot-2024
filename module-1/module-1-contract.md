@@ -17,7 +17,7 @@ And so, the idea of MailTrack was born - a device designed to accompany packages
 
 As MailTrack was developed, optimism grew within OmniSend. The first prototype was a compact device, easily attached to parcels. Equipped with advanced GPS and network sensors, it could gather and offload data upon delivery.
 
-The true test came when MailTrack accompanied its first package. As the package moved from warehouse to delivery van, to parcel machines, inward deliveries through highways to another city and, and, finally to the client's doorstep, MailTrack recorded every step. Managers monitored its journey, witnessing in real-time how traffic delays and miscommunication between delivery agents caused unexpected communication errors.
+And shortly after, MailTrack accompanied its first real package. As the package moved from warehouse to delivery van, to parcel machines, inward deliveries through highways to another city and, and, finally to the client's doorstep, MailTrack recorded every step. Managers monitored its journey, witnessing in real-time how traffic delays and miscommunication between delivery agents caused unexpected communication errors.
 
 With this new insight, OmniSend began to streamline its operations. Routes were optimized, delivery agents were better informed, and the miscommunications of workers and API-s started to unravel. Packages arrived on time, at the right doorsteps, and the trust in OmniSend started to rebuild.
 
