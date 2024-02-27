@@ -65,5 +65,6 @@
 ## (M) “Hello world”/Blink in C++ - TODO: lisa pilt
 - Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
 - Variation(s) of blink with button.
+- https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/blink.gif
 
 
