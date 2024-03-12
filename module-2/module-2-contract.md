@@ -12,7 +12,7 @@
 - Two color LEDs
 - RGB LED
 - Multiple 200 and 330 OHM resistors
-- OLED display shield - 2pcs
+- D1 Mini OLED display shield - 2pcs
 - Dupont jumper cables
 - 12V power supply into multiple USB-A ports
 - Breadboard
