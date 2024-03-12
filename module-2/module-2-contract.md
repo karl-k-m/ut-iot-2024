@@ -2,18 +2,20 @@
 
 ## (M) The Kit - Arduino IDE and the ESP8266 - OK
 ### Components:
-- Dual socket triple base shield for WebMos D1 Mini ESP8 - 3pcs
-- S3 - 2pcs
-- Relay
-- Button shield
-- RFID reader
-- RFID card
-- RFID keyholder
-- Solenoid door lock
-- LEDs, condensator, resistors
+- Dual socket triple base shield for WebMos D1 Mini
+- ESP8266 MCU - 3pcs
+- ESP32s - 2pcs
+- 5V Relay shield
+- D1 Mini Button shield
+- RFID-RC522 card reader with 2 NFC tags
+- 12V Solenoid door lock
+- Two color LEDs
+- RGB LED
+- Multiple 200 and 330 OHM resistors
 - OLED display shield - 2pcs
-- Cables
-- Power supply with cable
+- Dupont jumper cables
+- 12V power supply into multiple USB-A ports
+- Breadboard
 
 ## (O) Recompile from class - OK
 
