@@ -60,7 +60,7 @@
 - https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/rgb_mixer_0.jpg
 - https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/rgb_mixer_1.jpg
 - https://github.com/karl-k-m/ut-iot-2024/blob/main/module-2/rgb_mixer_2.jpg
-
+- See: sketch_feb26a_rgb.ino
 
 ## (M) “Hello world”/Blink in C++ - TODO: lisa pilt
 - Blink video. (https://youtu.be/2nN_ZVyWLzg?si=EkluhBUelc4Rdhbg )
