@@ -1,0 +1,180 @@
+[
+    {
+        "id": "afdcc788b234ed5e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6207f9592fcf772e",
+        "type": "mqtt in",
+        "z": "afdcc788b234ed5e",
+        "name": "sensor_input",
+        "topic": "sensor_node",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c576ed9796b65c00",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 430,
+        "y": 320,
+        "wires": [
+            [
+                "1bbe1c94d7b8269e"
+            ]
+        ]
+    },
+    {
+        "id": "3c744d077f568f18",
+        "type": "mqtt out",
+        "z": "afdcc788b234ed5e",
+        "name": "alert_sender",
+        "topic": "alerts",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "c576ed9796b65c00",
+        "x": 730,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "1bbe1c94d7b8269e",
+        "type": "function",
+        "z": "afdcc788b234ed5e",
+        "name": "function 1",
+        "func": "// Check if the message is from the snooze button\nif (msg.topic === \"ignore\") {\n    // Activate snooze\n    flow.set(\"snoozed\", true);\n\n    // Set a timeout to deactivate snooze after 10 seconds\n    setTimeout(function() {\n        flow.set(\"snoozed\", false);\n    }, 5000);\n\n    return null; // Do not forward message\n} else if (flow.get(\"snoozed\")) {\n    // If in snooze mode, do not process messages\n    return null; // Do not forward message\n} else {\n    let treshold = 25;\n    let temp = parseInt(msg.payload);\n\n    if (temp > treshold) {\n        var alertMsg = {\n            payload: \"temp_alert\"\n        };\n        return alertMsg; // Return the message object\n    }\n    else {\n        return null;\n    }\n}\nreturn null; // Do not forward message if conditions are not met",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "3c744d077f568f18"
+            ]
+        ]
+    },
+    {
+        "id": "df7702d3d9cca852",
+        "type": "mqtt in",
+        "z": "afdcc788b234ed5e",
+        "name": "ignore_input",
+        "topic": "ignore",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c576ed9796b65c00",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "1bbe1c94d7b8269e"
+            ]
+        ]
+    },
+    {
+        "id": "ea8fb2acbf5f4658",
+        "type": "mqtt in",
+        "z": "afdcc788b234ed5e",
+        "name": "alert_node",
+        "topic": "alerts",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c576ed9796b65c00",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 920,
+        "y": 480,
+        "wires": [
+            [
+                "4d314738c6196ec7"
+            ]
+        ]
+    },
+    {
+        "id": "4d314738c6196ec7",
+        "type": "function",
+        "z": "afdcc788b234ed5e",
+        "name": "function 2",
+        "func": "if (msg.payload == \"temp_alert\") {\n    return msg;\n}\nelse{\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 480,
+        "wires": [
+            [
+                "c799e9e3fe394230"
+            ]
+        ]
+    },
+    {
+        "id": "c799e9e3fe394230",
+        "type": "debug",
+        "z": "afdcc788b234ed5e",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1240,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "c576ed9796b65c00",
+        "type": "mqtt-broker",
+        "name": "mqtt-broke",
+        "broker": "localhost",
+        "port": "1883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "3",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
